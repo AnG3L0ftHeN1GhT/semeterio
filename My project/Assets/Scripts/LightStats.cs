@@ -41,5 +41,6 @@ public class LightStats : MonoBehaviour
     {
         Luz.intensity = Random.Range(MinIntensity, MaxIntensity);
         yield return new WaitForSeconds(Random.Range(MinFlickRate, MaxFlickRate));
+        Luz.intensity = 1;
     }
 }
