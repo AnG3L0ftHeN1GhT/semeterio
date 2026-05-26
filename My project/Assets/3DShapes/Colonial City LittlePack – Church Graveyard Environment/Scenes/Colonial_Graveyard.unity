@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0, g: 0, b: 0, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.301
+  m_FogDensity: 0.396
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -1955,7 +1955,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8675915457954794080, guid: 3fc537e92bf3d2449b5be72cfd6cb447, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8675915457954794082, guid: 3fc537e92bf3d2449b5be72cfd6cb447, type: 3}
       propertyPath: m_LocalScale.x
@@ -4658,7 +4658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 939859799902557712, guid: d6ad2ff4a1a16f1439aae9ed5aaa0858, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.53386
+      value: -0.541
       objectReference: {fileID: 0}
     - target: {fileID: 939859799902557712, guid: d6ad2ff4a1a16f1439aae9ed5aaa0858, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7194,7 +7194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8347676412066745954, guid: 95d5b513208f8da41b1b97e2c37ac645, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.52986
+      value: -0.541
       objectReference: {fileID: 0}
     - target: {fileID: 8347676412066745954, guid: 95d5b513208f8da41b1b97e2c37ac645, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9823,7 +9823,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 423dd74e19a5e334e963d2f71fd25d04, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -16368,7 +16368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4803014352389650695, guid: 06cb2b131fe009c47a523671a8fa9ed8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8429865231615740692, guid: 06cb2b131fe009c47a523671a8fa9ed8, type: 3}
       propertyPath: m_LocalScale.x
@@ -19073,8 +19073,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1581426523}
     m_Modifications:
     - target: {fileID: -7406965634457898279, guid: 2320fdc6855a0ca42b693f7945d75306, type: 3}
+      propertyPath: FlickSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -7406965634457898279, guid: 2320fdc6855a0ca42b693f7945d75306, type: 3}
       propertyPath: FlickChance
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 142656191690038325, guid: 2320fdc6855a0ca42b693f7945d75306, type: 3}
+      propertyPath: m_Volume
+      value: 0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 142656191690038325, guid: 2320fdc6855a0ca42b693f7945d75306, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0.51
       objectReference: {fileID: 0}
     - target: {fileID: 2623487948887396147, guid: 2320fdc6855a0ca42b693f7945d75306, type: 3}
       propertyPath: m_LocalPosition.x

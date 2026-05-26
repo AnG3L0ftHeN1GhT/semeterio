@@ -3,30 +3,31 @@ using UnityEngine;
 
 public class mimic : MonoBehaviour
 {
-    private bool down;
+    private bool fall;
 
     private void Start()
     {
-        down = false;
+        gameObject.SetActive(false);
+        fall = false;
     }
 
     private void Update()
     {
-        if(down)
+        if(fall)
         {
             StartCoroutine("Boom");
-            down = false;
+            fall = false;
         }
     }
     private void OnTriggerEnter(Collider other)
     {
-        down = true;
+        fall = true;
     }
 
     IEnumerator Boom()
     {
         yield return new WaitForSeconds(1);
-        transform.position = Vector3.down;
-        down = true;
+        transform.Translate(Vector3.down);
+        fall = true;
     }
 }

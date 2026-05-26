@@ -146,3 +146,4 @@ MonoBehaviour:
   MaxIntensity: 1
   MinFlickRate: 3
   MaxFlickRate: 10
+  FlickSound: {fileID: 0}

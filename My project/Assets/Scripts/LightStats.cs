@@ -11,6 +11,7 @@ public class LightStats : MonoBehaviour
     public float MaxIntensity;
     public float MinFlickRate;
     public float MaxFlickRate;
+    public AudioSource FlickSound;
     void Start()
     {
         Luz = GetComponent<Light>();
